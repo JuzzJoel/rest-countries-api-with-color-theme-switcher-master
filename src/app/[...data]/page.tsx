@@ -12,7 +12,6 @@ const CountryPage = () => {
 
   // Safely extract params with type guards
   const countryParams = Array.isArray(params?.data) ? params.data : [];
-  const countryName = countryParams[0] as string | undefined;
   const countryNumericCode = countryParams[1] as string | undefined;
 
   const [country, setCountry] = useState<Country | null>(null);

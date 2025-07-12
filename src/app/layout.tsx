@@ -33,15 +33,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-       <html lang="en">
-      <body>
-        <ThemeProvider>
-                  <DisplayHeader />
-
-          {children}
-        </ThemeProvider>
-      </body>
-    </html>
-  );
+ 
+return (
+  <html lang="en" className={nunitoSans.variable}>
+    <body>
+      <ThemeProvider>
+        <DisplayHeader />
+        {children}
+      </ThemeProvider>
+    </body>
+  </html>
+);
 }
