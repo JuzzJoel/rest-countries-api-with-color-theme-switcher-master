@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/rest-countries-api-with-nextjs-and-tailwind-css-2lX9YQZR6b)
-- Live Site URL: [Live Demo](https://rest-countries-api-theme-switcher.vercel.app/)
+- Live Site URL: [Live Demo](https://rest-countries-api-with-color-theme-pi.vercel.app/)
 
 ## My process
 
